@@ -3,7 +3,16 @@
 
 This repository collects important papers in the field of **Continual Reinforcement Learning (CRL)** and **Lifelong Reinforcement Learning (LRL)**, aiming to provide a comprehensive and up-to-date resource for researchers. Continual and lifelong RL are valuable research directions that help agents learn adaptively and robustly in **non-stationary environments**. Contributions and suggestions for missing important works are always welcome.
 
-[TOC]
+- [📢 Awesome-Continual-RL](#-awesome-continual-rl)
+  - [🚀 Attention](#-attention)
+  - [📝 Survey](#-survey)
+  - [📖 Research Papers](#-research-papers)
+    - [ICML 2025](#icml-2025)
+    - [ICLR 2025](#iclr-2025)
+    - [ICRA 2025](#icra-2025)
+    - [NeurIPS 2022](#neurips-2022)
+  - [🌎 Benchmarks](#-benchmarks)
+    - [NeurIPS 2021](#neurips-2021)
 
 
 ## 🚀 Attention
