@@ -13,6 +13,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [NeurIPS 2022](#neurips-2022)
   - [🌎 Benchmarks](#-benchmarks)
     - [NeurIPS 2021](#neurips-2021)
+    - [CoRL 2019](#corl-2019)
 
 
 ## 🚀 Attention
@@ -39,7 +40,7 @@ Feel free to contribute either with a PR or by opening an issue.
 ## 📖 Research Papers
 
 ### ICML 2025
-- Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (ICML 2025 Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
+- Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
 
 - Sun Y, Fu H, Littman M, et al. **Knowledge Retention for Continual Model-Based Reinforcement Learning**[J]. arXiv preprint arXiv:2503.04256, 2025.[[Paper]](https://arxiv.org/abs/2503.04256)[[Code]](https://github.com/YixiangSun/drago)
 
@@ -69,3 +70,8 @@ Feel free to contribute either with a PR or by opening an issue.
 - Wołczyk M, Zając M, Pascanu R, et al. **Continual world: A robotic benchmark for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2021, 34: 28496-28510.[[Paper]](https://proceedings.neurips.cc/paper/2021/hash/ef8446f35513a8d6aa2308357a268a7e-Abstract.html)[[Code]](https://github.com/awarelab/continual_world)
 
     `TL;DR: This paper proposes Continual World, a new benchmark for CRL built on Meta-World. It empirically evaluates seven CL methods on Continual World and finds that existing CL methods effectively mitigate forgetting but largely fail to achieve positive forward transfer, reflecting an inefficient utilization of previously learned knowledge.`
+
+### CoRL 2019
+- Yu T, Quillen D, He Z, et al. **Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning**[C]//Conference on robot learning. PMLR, 2020: 1094-1100. [[Paper]](http://proceedings.mlr.press/v100/yu20a)[[Code]](https://github.com/Farama-Foundation/Metaworld)
+
+     `TL;DR: This paper proposes Meta-World, a benchmark for meta-reinforcement learning and multi-task learning consisting of 50 distinct robotic manipulation tasks. It evaluates seven meta-RL and multi-task learning algorithms, including MTSAC, to assess generalization across diverse tasks. Meta-World has since become a widely used benchmark in continual reinforcement learning (CRL) research.`
