@@ -11,6 +11,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
     - [NeurIPS 2022](#neurips-2022)
+    - [ICML 2018](#icml-2018)
   - [🌎 Benchmarks](#-benchmarks)
     - [NeurIPS 2021](#neurips-2021)
     - [CoRL 2019](#corl-2019)
@@ -63,6 +64,10 @@ Feel free to contribute either with a PR or by opening an issue.
     
     `TL;DR: This paper empirically investigates how SAC components impact transfer in CRL, highlighting the critic's paramount role and providing key design recommendations. Based on experimental observations, it proposes ClonEx-SAC, leveraging behavioral cloning and exploration strategy to significantly boost performance and forward transfer on Continual World.`  
 
+### ICML 2018
+- Schwarz J, Czarnecki W, Luketina J, et al. **Progress & compress: A scalable framework for continual learning**[C]//International conference on machine learning. PMLR, 2018: 4528-4537.[[Paper]](https://proceedings.mlr.press/v80/schwarz18a.html?ref=https://githubhelp.com)
+
+    `TL;DR: This paper introduces Progress & Compress (P&C), a scalable continual learning framework with online EWC for robust knowledge retention. An active column learns new tasks in the progress phase, while a knowledge base consolidates them via distillation in the compress phase. Experiments on handwritten alphabet classification, Atari, and 3D maze navigation validate the effectiveness of P&C. `
 
 ## 🌎 Benchmarks
 
