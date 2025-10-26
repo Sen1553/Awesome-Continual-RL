@@ -11,7 +11,9 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
     - [NeurIPS 2024](#neurips-2024)
+    - [ICML 2023](#icml-2023)
     - [NeurIPS 2022](#neurips-2022)
+    - [ICLR 2022](#iclr-2022)
     - [ICML 2018](#icml-2018)
   - [🌎 Benchmarks](#-benchmarks)
     - [NeurIPS 2021](#neurips-2021)
@@ -64,12 +66,22 @@ Feel free to contribute either with a PR or by opening an issue.
 ### NeurIPS 2024
 - Chung W, Cherif L, Meger D, et al. **Parseval regularization for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 127937-127967.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e6df4efa20adf8ef9acb80e94072a429-Paper-Conference.pdf)[[Code]](https://github.com/wechu/parseval_reg)
 
-    `TL;DR: This paper introduces Parseval Regularization to address plasticity loss in CRL. From an optimization perspective, it adds a term to the objective function to explicitly maintain the orthogonality of weight matrices. The regularization term is applied to both the policy and value networks across all layers except the last, thereby preserving optimization properties and enhancing learning new tasks effectively.`
+    `TL;DR: This paper introduces Parseval regularization to mitigate plasticity loss in CRL. It adds a term to the objective function to maintain the orthogonality of weight matrices, applied to both the policy and value networks across all layers except the last, thereby preserving optimization properties and improving the agent’s ability to learn new tasks. `
+
+### ICML 2023
+- Sokar G, Agarwal R, Castro P S, et al. **The dormant neuron phenomenon in deep reinforcement learning**[C]//International Conference on Machine Learning. PMLR, 2023: 32145-32168.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/redo)
+
+    `TL;DR: This paper attributes the reduced expressivity of reinforcement learning networks to the dormant neuron phenomenon, showing through extensive experiments that the proportion of inactive neurons increases during training. It introduces ReDo, a simple yet effective method that periodically reinitializes inactive neurons based on their activation statistics to restore network expressivity.`
 
 ### NeurIPS 2022
 - Wolczyk M, Zając M, Pascanu R, et al. **Disentangling transfer in continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2022, 35: 6304-6317.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2938ad0434a6506b125d8adaff084a4a-Abstract-Conference.html)
     
     `TL;DR: This paper empirically investigates how SAC components impact transfer in CRL, highlighting the critic's paramount role and providing key design recommendations. Based on experimental observations, it proposes ClonEx-SAC, leveraging behavioral cloning and exploration strategy to significantly boost performance and forward transfer on Continual World.`  
+
+### ICLR 2022
+- Lyle C, Rowland M, Dabney W. **Understanding and preventing capacity loss in reinforcement learning**[J]. arXiv preprint arXiv:2204.09560, 2022.[[Paper]](https://openreview.net/forum?id=ZkC8wKoLbQ7)[[Code]](https://github.com/timoklein/infer)
+
+    `TL;DR: This paper investigates capacity loss in RL, where networks gradually lose the ability to fit new targets. Using feature rank to quantify representational capacity, the authors propose Initial Feature Regularization (InFeR), which constrains a subspace of features to stay close to initial values, preserving feature rank and mitigating capacity loss across diverse RL settings.`  
 
 ### ICML 2018
 - Schwarz J, Czarnecki W, Luketina J, et al. **Progress & compress: A scalable framework for continual learning**[C]//International conference on machine learning. PMLR, 2018: 4528-4537.[[Paper]](https://proceedings.mlr.press/v80/schwarz18a.html?ref=https://githubhelp.com)
