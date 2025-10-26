@@ -10,6 +10,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
+    - [NeurIPS 2024](#neurips-2024)
     - [NeurIPS 2022](#neurips-2022)
     - [ICML 2018](#icml-2018)
   - [🌎 Benchmarks](#-benchmarks)
@@ -58,7 +59,13 @@ Feel free to contribute either with a PR or by opening an issue.
 ### ICRA 2025
 - Roy K, Dissanayakc A, Tidd B, et al. **M2distill: Multi-modal distillation for lifelong imitation learning**[C]//2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025: 1429-1435.[[Paper]](https://ieeexplore.ieee.org/abstract/document/11128857/)
   
-    `TL;DR: This paper proposes a multi-modal distillation-based lifelong imitation learning approach, which imposes constraints on the alterations in latent representations and action distributions. Experimental results on the LIBERO benchmark show superior performance in retaining old skills while learning new tasks. `
+    `TL;DR: This paper proposes a multi-modal distillation-based lifelong imitation learning approach, which imposes constraints on the alterations in latent representations and action distributions. Experimental results on the LIBERO benchmark show superior performance in retaining old skills while learning new tasks.`
+
+### NeurIPS 2024
+- Chung W, Cherif L, Meger D, et al. **Parseval regularization for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 127937-127967.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e6df4efa20adf8ef9acb80e94072a429-Paper-Conference.pdf)[[Code]](https://github.com/wechu/parseval_reg)
+
+    `TL;DR: This paper introduces Parseval Regularization to address plasticity loss in CRL. From an optimization perspective, it adds a term to the objective function to explicitly maintain the orthogonality of weight matrices. The regularization term is applied to both the policy and value networks across all layers except the last, thereby preserving optimization properties and enhancing learning new tasks effectively.`
+
 ### NeurIPS 2022
 - Wolczyk M, Zając M, Pascanu R, et al. **Disentangling transfer in continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2022, 35: 6304-6317.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2938ad0434a6506b125d8adaff084a4a-Abstract-Conference.html)
     
@@ -67,7 +74,7 @@ Feel free to contribute either with a PR or by opening an issue.
 ### ICML 2018
 - Schwarz J, Czarnecki W, Luketina J, et al. **Progress & compress: A scalable framework for continual learning**[C]//International conference on machine learning. PMLR, 2018: 4528-4537.[[Paper]](https://proceedings.mlr.press/v80/schwarz18a.html?ref=https://githubhelp.com)
 
-    `TL;DR: This paper introduces Progress & Compress (P&C), a scalable continual learning framework with online EWC for robust knowledge retention. An active column learns new tasks in the progress phase, while a knowledge base consolidates them via distillation in the compress phase. Experiments on handwritten alphabet classification, Atari, and 3D maze navigation validate the effectiveness of P&C. `
+    `TL;DR: This paper introduces Progress & Compress (P&C), a scalable continual learning framework with online EWC for robust knowledge retention. An active column learns new tasks in the progress phase, while a knowledge base consolidates them via distillation in the compress phase. Experiments on handwritten alphabet classification, Atari, and 3D maze navigation validate the effectiveness of P&C.`
 
 ## 🌎 Benchmarks
 
