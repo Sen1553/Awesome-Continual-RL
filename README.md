@@ -7,11 +7,14 @@ This repository collects important papers in the field of **Continual Reinforcem
   - [🚀 Attention](#-attention)
   - [📝 Survey](#-survey)
   - [📖 Research Papers](#-research-papers)
+    - [arXiv](#arxiv)
+    - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2023](#icml-2023)
+    - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [ICLR 2022](#iclr-2022)
     - [ICML 2018](#icml-2018)
@@ -43,6 +46,12 @@ Feel free to contribute either with a PR or by opening an issue.
 
 ## 📖 Research Papers
 
+### arXiv
+- Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
+
+### Nature Machine Intelligence 2025
+- Meng Y, Bing Z, Yao X, et al. **Preserving and combining knowledge in robotic lifelong reinforcement learning**[J]. Nature Machine Intelligence, 2025: 1-14.[[Paper]](https://www.nature.com/articles/s42256-025-00983-2)
+
 ### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
 
@@ -72,6 +81,13 @@ Feel free to contribute either with a PR or by opening an issue.
 - Sokar G, Agarwal R, Castro P S, et al. **The dormant neuron phenomenon in deep reinforcement learning**[C]//International Conference on Machine Learning. PMLR, 2023: 32145-32168.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/redo)
 
     `TL;DR: This paper attributes the reduced expressivity of reinforcement learning networks to the dormant neuron phenomenon, showing through extensive experiments that the proportion of inactive neurons increases during training. It introduces ReDo, a simple yet effective method that periodically reinitializes inactive neurons based on their activation statistics to restore network expressivity.`
+
+
+### Conference on Lifelong Learning Agents (CoLLAs) 2023
+- Abbas Z, Zhao R, Modayil J, et al. **Loss of plasticity in continual deep reinforcement learning**[C]//Conference on lifelong learning agents. PMLR, 2023: 620-636.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/crelu-pytorch)
+
+    `TL;DR: This paper investigates plasticity loss in CRL by tracking the evolution of weights, gradients, and activations. The authors observe activation collapse, where only a few neurons remain active in non-stationary environments, leading to vanishing gradients and stagnant network weights. Replacing ReLU with CReLU activations mitigates loss of plasticity and sustains learning over time.`
+
 
 ### NeurIPS 2022
 - Wolczyk M, Zając M, Pascanu R, et al. **Disentangling transfer in continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2022, 35: 6304-6317.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2938ad0434a6506b125d8adaff084a4a-Abstract-Conference.html)
