@@ -49,8 +49,11 @@ Feel free to contribute either with a PR or by opening an issue.
 ### arXiv
 - Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
 
+    `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
 ### Nature Machine Intelligence 2025
-- Meng Y, Bing Z, Yao X, et al. **Preserving and combining knowledge in robotic lifelong reinforcement learning**[J]. Nature Machine Intelligence, 2025: 1-14.[[Paper]](https://www.nature.com/articles/s42256-025-00983-2)
+- Meng Y, Bing Z, Yao X, et al. **Preserving and combining knowledge in robotic lifelong reinforcement learning**[J]. Nature Machine Intelligence, 2025: 1-14.[[Paper]](https://www.nature.com/articles/s42256-025-00983-2)[[Code]](https://github.com/Ghiara/LEGION)
+
+    `TL;DR: This paper presents LEGION, a robotic lifelong reinforcement learning framework that continually preserves and recombines knowledge across tasks. Leveraging a Bayesian non-parametric knowledge space and language embeddings, it integrates an upstream task inference module with a downstream single policy conditioned on latent task representations, enabling efficient transfer and long-horizon task execution.`  
 
 ### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
