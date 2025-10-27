@@ -87,7 +87,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ### Conference on Lifelong Learning Agents (CoLLAs) 2023
-- Abbas Z, Zhao R, Modayil J, et al. **Loss of plasticity in continual deep reinforcement learning**[C]//Conference on lifelong learning agents. PMLR, 2023: 620-636.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/crelu-pytorch)
+- Abbas Z, Zhao R, Modayil J, et al. **Loss of plasticity in continual deep reinforcement learning**[C]//Conference on lifelong learning agents. PMLR, 2023: 620-636.[[Paper]](https://proceedings.mlr.press/v232/abbas23a/abbas23a.pdf)[[Code]](https://github.com/timoklein/crelu-pytorch)
 
     `TL;DR: This paper investigates plasticity loss in CRL by tracking the evolution of weights, gradients, and activations. The authors observe activation collapse, where only a few neurons remain active in non-stationary environments, leading to vanishing gradients and stagnant network weights. Replacing ReLU with CReLU activations mitigates loss of plasticity and sustains learning over time.`
 
