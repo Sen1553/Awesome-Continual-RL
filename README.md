@@ -8,7 +8,6 @@ This repository collects important papers in the field of **Continual Reinforcem
   - [📝 Survey](#-survey)
   - [📖 Research Papers](#-research-papers)
     - [arXiv](#arxiv)
-    - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
@@ -18,6 +17,9 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [NeurIPS 2022](#neurips-2022)
     - [ICLR 2022](#iclr-2022)
     - [ICML 2018](#icml-2018)
+  - [🤖 Robot](#-robot)
+    - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
+    - [Entropy 2024](#entropy-2024)
   - [🌎 Benchmarks](#-benchmarks)
     - [NeurIPS 2021](#neurips-2021)
     - [CoRL 2019](#corl-2019)
@@ -50,10 +52,7 @@ Feel free to contribute either with a PR or by opening an issue.
 - Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
 
     `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
-### Nature Machine Intelligence 2025
-- Meng Y, Bing Z, Yao X, et al. **Preserving and combining knowledge in robotic lifelong reinforcement learning**[J]. Nature Machine Intelligence, 2025: 1-14.[[Paper]](https://www.nature.com/articles/s42256-025-00983-2)[[Code]](https://github.com/Ghiara/LEGION)
 
-    `TL;DR: This paper presents LEGION, a robotic lifelong reinforcement learning framework that continually preserves and recombines knowledge across tasks. Leveraging a Bayesian non-parametric knowledge space and language embeddings, it integrates an upstream task inference module with a downstream single policy conditioned on latent task representations, enabling efficient transfer and long-horizon task execution.`  
 
 ### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
@@ -107,6 +106,18 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper introduces Progress & Compress (P&C), a scalable continual learning framework with online EWC for robust knowledge retention. An active column learns new tasks in the progress phase, while a knowledge base consolidates them via distillation in the compress phase. Experiments on handwritten alphabet classification, Atari, and 3D maze navigation validate the effectiveness of P&C.`
 
+
+## 🤖 Robot
+
+### Nature Machine Intelligence 2025
+- Meng Y, Bing Z, Yao X, et al. **Preserving and combining knowledge in robotic lifelong reinforcement learning**[J]. Nature Machine Intelligence, 2025: 1-14.[[Paper]](https://www.nature.com/articles/s42256-025-00983-2)[[Code]](https://github.com/Ghiara/LEGION)
+
+    `TL;DR: This paper presents LEGION, a robotic lifelong reinforcement learning framework that continually preserves and recombines knowledge across tasks. Leveraging a Bayesian non-parametric knowledge space and language embeddings, it integrates an upstream task inference module with a downstream single policy conditioned on latent task representations, enabling efficient transfer and long-horizon task execution.`  
+
+### Entropy 2024
+- Gai S, Lyu S, **Zhang H, et al. Continual reinforcement learning for quadruped robot locomotion**[J]. Entropy, 2024, 26(1).[[Paper]](https://www.mdpi.com/1099-4300/26/1/93)
+
+    `TL;DR: This paper introduces a CRL approach for quadruped robot to overcome catastrophic forgetting and plasticity loss. It uses a modified Piggyback dynamic network that protects learned parameters and enhances exploration via re-initialization and entropy regularization, outperforming baselines on complex locomotion tasks.`  
 ## 🌎 Benchmarks
 
 ### NeurIPS 2021
