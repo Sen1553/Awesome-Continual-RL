@@ -21,6 +21,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
     - [Entropy 2024](#entropy-2024)
   - [🌎 Benchmarks](#-benchmarks)
+    - [NeurIPS 2023](#neurips-2023)
     - [NeurIPS 2021](#neurips-2021)
     - [CoRL 2019](#corl-2019)
 
@@ -119,6 +120,11 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper introduces a CRL approach for quadruped robot to overcome catastrophic forgetting and plasticity loss. It uses a modified Piggyback dynamic network that protects learned parameters and enhances exploration via re-initialization and entropy regularization, outperforming baselines on complex locomotion tasks.`  
 ## 🌎 Benchmarks
+### NeurIPS 2023
+- Liu B, Zhu Y, Gao C, et al. **Libero: Benchmarking knowledge transfer for lifelong robot learning**[J]. Advances in Neural Information Processing Systems, 2023, 36: 44776-44791.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract-Datasets_and_Benchmarks.html)[[Code]](https://libero-project.github.io/)
+
+    `TL;DR:This paper presents LIBERO, a new benchmark for Lifelong Learning in Decision-Making (LLDM) in robot manipulation, comprising 130 multi-modal tasks across four suites. It investigates five major research topics in lifelong learning, focusing on declarative and procedural knowledge transfer across visual, state, and language modalities.`  
+
 
 ### NeurIPS 2021
 - Wołczyk M, Zając M, Pascanu R, et al. **Continual world: A robotic benchmark for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2021, 34: 28496-28510.[[Paper]](https://proceedings.neurips.cc/paper/2021/hash/ef8446f35513a8d6aa2308357a268a7e-Abstract.html)[[Code]](https://github.com/awarelab/continual_world)
