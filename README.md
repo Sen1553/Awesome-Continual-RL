@@ -11,6 +11,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
+    - [Nature 2024](#nature-2024)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2023](#icml-2023)
     - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
@@ -75,6 +76,11 @@ Feel free to contribute either with a PR or by opening an issue.
   
     `TL;DR: This paper proposes a multi-modal distillation-based lifelong imitation learning approach, which imposes constraints on the alterations in latent representations and action distributions. Experimental results on the LIBERO benchmark show superior performance in retaining old skills while learning new tasks.`
 
+### Nature 2024
+- Dohare S, Hernandez-Garcia J F, Lan Q, et al. **Loss of plasticity in deep continual learning**[J]. Nature, 2024, 632(8026): 768-774.[[Paper]](https://www.nature.com/articles/s41586-024-07711-7)[[Code]](https://github.com/shibhansh/loss-of-plasticity)
+
+    `TL;DR: This paper systematically demonstrates that both supervised and reinforcement learning methods based on backpropagation suffer from loss of plasticity in continual learning tasks, and proposes Continual Backpropagation, which maintains long-term learning ability by continually and randomly reinitializing a small fraction of less-used units.`
+
 ### NeurIPS 2024
 - Chung W, Cherif L, Meger D, et al. **Parseval regularization for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 127937-127967.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e6df4efa20adf8ef9acb80e94072a429-Paper-Conference.pdf)[[Code]](https://github.com/wechu/parseval_reg)
 
@@ -123,7 +129,7 @@ Feel free to contribute either with a PR or by opening an issue.
 ### NeurIPS 2023
 - Liu B, Zhu Y, Gao C, et al. **Libero: Benchmarking knowledge transfer for lifelong robot learning**[J]. Advances in Neural Information Processing Systems, 2023, 36: 44776-44791.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract-Datasets_and_Benchmarks.html)[[Code]](https://libero-project.github.io/)
 
-    `TL;DR:This paper presents LIBERO, a new benchmark for Lifelong Learning in Decision-Making (LLDM) in robot manipulation, comprising 130 multi-modal tasks across four suites. It investigates five major research topics in lifelong learning, focusing on declarative and procedural knowledge transfer across visual, state, and language modalities.`  
+    `TL;DR: This paper presents LIBERO, a new benchmark for Lifelong Learning in Decision-Making (LLDM) in robot manipulation, comprising 130 multi-modal tasks across four suites. It investigates five major research topics in lifelong learning, focusing on declarative and procedural knowledge transfer across visual, state, and language modalities.`  
 
 
 ### NeurIPS 2021
