@@ -14,6 +14,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Nature 2024](#nature-2024)
     - [NeurIPS 2024](#neurips-2024)
     - [ICML 2023](#icml-2023)
+    - [ICLR 2023](#iclr-2023)
     - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [ICLR 2022](#iclr-2022)
@@ -23,6 +24,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Entropy 2024](#entropy-2024)
   - [🌎 Benchmarks](#-benchmarks)
     - [NeurIPS 2023](#neurips-2023)
+    - [CoLLAs 2022](#collas-2022)
     - [NeurIPS 2021](#neurips-2021)
     - [CoRL 2019](#corl-2019)
 
@@ -91,6 +93,10 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper attributes the reduced expressivity of reinforcement learning networks to the dormant neuron phenomenon, showing through extensive experiments that the proportion of inactive neurons increases during training. It introduces ReDo, a simple yet effective method that periodically reinitializes inactive neurons based on their activation statistics to restore network expressivity.`
 
+### ICLR 2023
+- Gaya J B, Doan T, Caccia L, et al. **Building a subspace of policies for scalable continual learning**[J]. arXiv preprint arXiv:2211.10445, 2022.[[Paper]](https://arxiv.org/abs/2211.10445)[[Code]](https://github.com/facebookresearch/salina/tree/main/salina_cl)
+
+    `TL;DR: This paper introduces Continual Subspace of Policies (CSP), a scalable continual reinforcement learning method that incrementally builds a subspace of policies to balance performance and model size, achieving sublinear growth, no forgetting, and strong transfer on Brax and Continual World benchmarks.`
 
 ### Conference on Lifelong Learning Agents (CoLLAs) 2023
 - Abbas Z, Zhao R, Modayil J, et al. **Loss of plasticity in continual deep reinforcement learning**[C]//Conference on lifelong learning agents. PMLR, 2023: 620-636.[[Paper]](https://proceedings.mlr.press/v232/abbas23a/abbas23a.pdf)[[Code]](https://github.com/timoklein/crelu-pytorch)
@@ -131,6 +137,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper presents LIBERO, a new benchmark for Lifelong Learning in Decision-Making (LLDM) in robot manipulation, comprising 130 multi-modal tasks across four suites. It investigates five major research topics in lifelong learning, focusing on declarative and procedural knowledge transfer across visual, state, and language modalities.`  
 
+### CoLLAs 2022
+- Powers S, Xing E, Kolve E, et al. **Cora: Benchmarks, baselines, and metrics as a platform for continual reinforcement learning agents**[C]//Conference on Lifelong Learning Agents. PMLR, 2022: 705-743.[[Paper]](https://proceedings.mlr.press/v199/powers22b.html)[[Code]](https://github.com/AGI-Labs/continual_rl)
 
 ### NeurIPS 2021
 - Wołczyk M, Zając M, Pascanu R, et al. **Continual world: A robotic benchmark for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2021, 34: 28496-28510.[[Paper]](https://proceedings.neurips.cc/paper/2021/hash/ef8446f35513a8d6aa2308357a268a7e-Abstract.html)[[Code]](https://github.com/awarelab/continual_world)
