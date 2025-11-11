@@ -27,6 +27,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [CoLLAs 2022](#collas-2022)
     - [NeurIPS 2021](#neurips-2021)
     - [CoRL 2019](#corl-2019)
+  - [🔗 Related Repositories](#-related-repositories)
 
 
 ## 🚀 Attention
@@ -111,6 +112,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Schöpf P, Auddy S, Hollenstein J, et al. **Hypernetwork-ppo for continual reinforcement learning**[C]//Deep Reinforcement Learning Workshop NeurIPS 2022. 2022.[[Paper]](https://openreview.net/forum?id=s9wY71poI25)
 
+    `TL;DR: This paper proposes HyperNetwork-PPO (HN-PPO), where a shared hypernetwork generates task-specific actor–critic parameters from task embeddings. Regularized hypernetwork updates prevent drastic changes to prior policies, enabling continual adaptation without forgetting.`
+
 ### ICLR 2022
 - Lyle C, Rowland M, Dabney W. **Understanding and preventing capacity loss in reinforcement learning**[J]. arXiv preprint arXiv:2204.09560, 2022.[[Paper]](https://openreview.net/forum?id=ZkC8wKoLbQ7)[[Code]](https://github.com/timoklein/infer)
 
@@ -151,3 +154,16 @@ Feel free to contribute either with a PR or by opening an issue.
 - Yu T, Quillen D, He Z, et al. **Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning**[C]//Conference on robot learning. PMLR, 2020: 1094-1100. [[Paper]](http://proceedings.mlr.press/v100/yu20a)[[Code]](https://github.com/Farama-Foundation/Metaworld)
 
      `TL;DR: This paper proposes Meta-World, a benchmark for meta-reinforcement learning and multi-task learning consisting of 50 distinct robotic manipulation tasks. It evaluates seven meta-RL and multi-task learning algorithms, including MTSAC, to assess generalization across diverse tasks. Meta-World has become a widely used benchmark in CRL research.`
+
+
+
+## 🔗 Related Repositories
+
+| Repository | URL |
+|:--------------------------------------|:-------------------------------------------------------------|
+| **Papers-Of-Continual-RL** | [Link](https://github.com/datake/Papers-Of-Continual-RL) |
+| **Awesome-Robotics-Manipulation** | [Link](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation/blob/main/contents/bottlenecks.md?tab=readme-ov-file#lifelongcontinualincremental-learning) |
+| **continual-learning-papers** | [Link](https://github.com/ContinualAI/continual-learning-papers?tab=readme-ov-file#continual-reinforcement-learning) |
+
+
+
