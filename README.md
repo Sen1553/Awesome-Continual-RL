@@ -109,6 +109,8 @@ Feel free to contribute either with a PR or by opening an issue.
     
     `TL;DR: This paper empirically investigates how SAC components impact transfer in CRL, highlighting the critic's paramount role and providing key design recommendations. Based on experimental observations, it proposes ClonEx-SAC, leveraging behavioral cloning and exploration strategy to significantly boost performance and forward transfer on Continual World.`  
 
+- Schöpf P, Auddy S, Hollenstein J, et al. **Hypernetwork-ppo for continual reinforcement learning**[C]//Deep Reinforcement Learning Workshop NeurIPS 2022. 2022.[[Paper]](https://openreview.net/forum?id=s9wY71poI25)
+
 ### ICLR 2022
 - Lyle C, Rowland M, Dabney W. **Understanding and preventing capacity loss in reinforcement learning**[J]. arXiv preprint arXiv:2204.09560, 2022.[[Paper]](https://openreview.net/forum?id=ZkC8wKoLbQ7)[[Code]](https://github.com/timoklein/infer)
 
