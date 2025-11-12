@@ -18,6 +18,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [ICLR 2022](#iclr-2022)
+    - [NeurIPS 2019](#neurips-2019)
     - [ICML 2018](#icml-2018)
   - [🤖 Robot](#-robot)
     - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
@@ -118,6 +119,12 @@ Feel free to contribute either with a PR or by opening an issue.
 - Lyle C, Rowland M, Dabney W. **Understanding and preventing capacity loss in reinforcement learning**[J]. arXiv preprint arXiv:2204.09560, 2022.[[Paper]](https://openreview.net/forum?id=ZkC8wKoLbQ7)[[Code]](https://github.com/timoklein/infer)
 
     `TL;DR: This paper investigates capacity loss in RL, where networks gradually lose the ability to fit new targets. Using feature rank to quantify representational capacity, the authors propose Initial Feature Regularization (InFeR), which constrains a subspace of features to stay close to initial values, preserving feature rank and mitigating capacity loss across diverse RL settings.`  
+
+### NeurIPS 2019
+
+- Traoré R, Caselles-Dupré H, Lesort T, et al. **DISCORL: Continual reinforcement learning via policy distillation**[C]//NeurIPS workshop on Deep Reinforcement Learning. 2019.[[Paper]](https://arxiv.org/abs/1907.05855)[[Code]](https://github.com/anonymous-authors-2018/DisCoRL)
+
+    `TL;DR: This paper presents DisCoRL, a CRL framework that combines state representation learning and policy distillation to sequentially learn multiple tasks without catastrophic forgetting or task labels. The method distills previously learned policies into a single network using stored soft-labeled data, enabling a robot to automatically infer and perform all tasks in both simulation and real-world settings.`
 
 ### ICML 2018
 - Schwarz J, Czarnecki W, Luketina J, et al. **Progress & compress: A scalable framework for continual learning**[C]//International conference on machine learning. PMLR, 2018: 4528-4537.[[Paper]](https://proceedings.mlr.press/v80/schwarz18a.html?ref=https://githubhelp.com)
