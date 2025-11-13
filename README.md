@@ -126,6 +126,10 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper presents DisCoRL, a CRL framework that combines state representation learning and policy distillation to sequentially learn multiple tasks without catastrophic forgetting or task labels. The method distills previously learned policies into a single network using stored soft-labeled data, enabling a robot to automatically infer and perform all tasks in both simulation and real-world settings.`
 
+- Rolnick D, Ahuja A, Schwarz J, et al. **Experience replay for continual learning**[J]. Advances in neural information processing systems, 2019, 32.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2019/hash/fa7cdfad1a5aaf8370ebeda47a1ff1c3-Abstract.html)
+
+    `TL;DR: This paper introduces CLEAR, a simple replay-based method for CRL that mixes on-policy learning from new experience with off-policy learning and behavioral cloning from replay buffers. CLEAR greatly reduces catastrophic forgetting without requiring task labels or complex architectural changes, outperforming methods like EWC and P&C.`
+
 ### ICML 2018
 - Schwarz J, Czarnecki W, Luketina J, et al. **Progress & compress: A scalable framework for continual learning**[C]//International conference on machine learning. PMLR, 2018: 4528-4537.[[Paper]](https://proceedings.mlr.press/v80/schwarz18a.html?ref=https://githubhelp.com)
 
