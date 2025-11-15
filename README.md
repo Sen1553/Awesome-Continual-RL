@@ -8,6 +8,8 @@ This repository collects important papers in the field of **Continual Reinforcem
   - [📝 Survey](#-survey)
   - [📖 Research Papers](#-research-papers)
     - [arXiv](#arxiv)
+      - [2025](#2025)
+      - [2016](#2016)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
@@ -55,11 +57,16 @@ Feel free to contribute either with a PR or by opening an issue.
 ## 📖 Research Papers
 
 ### arXiv
+#### 2025
 - Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
 
     `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
 
+#### 2016
 - Rusu A A, Rabinowitz N C, Desjardins G, et al. Progressive neural networks[J]. arXiv preprint arXiv:1606.04671, 2016.[[Paper]](https://arxiv.org/abs/1606.04671)
+  
+    `TL;DR: This paper introduces Progressive Neural Networks, which add a new neural network (a column) for each task and freeze earlier ones to avoid catastrophic forgetting. Lateral connections enable effective feature reuse, and experiments on Atari, Pong variants, and 3D mazes show consistent positive transfer beyond standard finetuning in deep RL.`  
+
 
 
 ### ICML 2025
