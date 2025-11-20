@@ -81,6 +81,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Tang H, Obando-Ceron J, Castro P S, et al. **Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn**[J]. arXiv preprint arXiv:2506.00592, 2025.[[Paper]](https://arxiv.org/abs/2506.00592)[[Code]](https://github.com/bluecontra/C-CHAIN)
 
+    `TL;DR: This paper links plasticity loss in CRL to increased "churn" (network output variability for out-of-batch data), showing it's exacerbated by Neural Tangent Kernel (NTK) rank decrease. The authors propose C-CHAIN, a method to reduce churn, which prevents NTK rank collapse and adaptively adjusts gradients. C-CHAIN significantly improves learning performance across diverse benchmarks.`
+
 - Mesbahi G, Panahi P M, Mastikhina O, et al. **Position: Lifetime tuning is incompatible with continual reinforcement learning**[C]//Forty-second International Conference on Machine Learning Position Paper Track.[[Paper]](https://openreview.net/forum?id=JMoWFkwnvv)
 
 
@@ -188,6 +190,7 @@ Feel free to contribute either with a PR or by opening an issue.
 |:--------------------------------------|:-------------------------------------------------------------|
 | **Papers-Of-Continual-RL** | [Link](https://github.com/datake/Papers-Of-Continual-RL) |
 | **Awesome-Robotics-Manipulation** | [Link](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation/blob/main/contents/bottlenecks.md?tab=readme-ov-file#lifelongcontinualincremental-learning) |
+| **Awesome-Continual-Learning** | [Link](https://github.com/lywang3081/Awesome-Continual-Learning) |
 | **continual-learning-papers** | [Link](https://github.com/ContinualAI/continual-learning-papers?tab=readme-ov-file#continual-reinforcement-learning) |
 
 
