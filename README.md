@@ -9,7 +9,7 @@ This repository collects important papers in the field of **Continual Reinforcem
   - [📖 Research Papers](#-research-papers)
     - [arXiv](#arxiv)
       - [2025](#2025)
-    - [2017](#2017)
+      - [2017](#2017)
       - [2016](#2016)
     - [ICML 2025](#icml-2025)
     - [ICLR 2025](#iclr-2025)
@@ -63,7 +63,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
 
-### 2017
+#### 2017
 - Fernando C, Banarse D, Blundell C, et al. **Pathnet: Evolution channels gradient descent in super neural networks**[J]. arXiv preprint arXiv:1701.08734, 2017.[[Paper]](https://arxiv.org/pdf/1701.08734)
 
     `TL;DR: PathNet can be viewed as an evolutionary-masked neural network that uses a genetic algorithm to select and train task-specific parameter paths, freezing them afterward to avoid catastrophic forgetting; by reusing high-fitness modules while isolating irrelevant ones, it achieves faster and more reliable transfer than fine-tuning or learning from scratch across both supervised and RL tasks.`  
