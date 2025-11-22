@@ -12,6 +12,7 @@ This repository collects important papers in the field of **Continual Reinforcem
       - [2017](#2017)
       - [2016](#2016)
     - [ICML 2025](#icml-2025)
+    - [NeurIPS 2025](#neurips-2025)
     - [ICLR 2025](#iclr-2025)
     - [ICRA 2025](#icra-2025)
     - [Nature 2024](#nature-2024)
@@ -27,6 +28,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Nature Machine Intelligence 2025](#nature-machine-intelligence-2025)
     - [Entropy 2024](#entropy-2024)
   - [🌎 Benchmarks](#-benchmarks)
+    - [ICML 2025](#icml-2025-1)
     - [NeurIPS 2023](#neurips-2023)
     - [CoLLAs 2022](#collas-2022)
     - [NeurIPS 2021](#neurips-2021)
@@ -55,6 +57,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Khetarpal K, Riemer M, Rish I, et al. **Towards continual reinforcement learning: A review and perspectives**[J]. Journal of Artificial Intelligence Research, 2022, 75: 1401-1476.[[Paper]](https://www.jair.org/index.php/jair/article/view/13673)
 
+    `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
+
 ## 📖 Research Papers
 
 ### arXiv
@@ -63,12 +67,14 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
 
+- Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://openreview.net/forum?id=zPj3SUiz3y)
+
 #### 2017
 - Fernando C, Banarse D, Blundell C, et al. **Pathnet: Evolution channels gradient descent in super neural networks**[J]. arXiv preprint arXiv:1701.08734, 2017.[[Paper]](https://arxiv.org/pdf/1701.08734)
 
     `TL;DR: PathNet can be viewed as an evolutionary-masked neural network that uses a genetic algorithm to select and train task-specific parameter paths, freezing them afterward to avoid catastrophic forgetting; by reusing high-fitness modules while isolating irrelevant ones, it achieves faster and more reliable transfer than fine-tuning or learning from scratch across both supervised and RL tasks.`  
 #### 2016
-- Rusu A A, Rabinowitz N C, Desjardins G, et al. Progressive neural networks[J]. arXiv preprint arXiv:1606.04671, 2016.[[Paper]](https://arxiv.org/abs/1606.04671)
+- Rusu A A, Rabinowitz N C, Desjardins G, et al. **Progressive neural networks**[J]. arXiv preprint arXiv:1606.04671, 2016.[[Paper]](https://arxiv.org/abs/1606.04671)
   
     `TL;DR: This paper introduces Progressive Neural Networks, which add a new neural network (a column) for each task and freeze earlier ones to avoid catastrophic forgetting. Lateral connections enable effective feature reuse, and experiments on Atari, Pong variants, and 3D mazes show consistent positive transfer beyond standard finetuning in deep RL.`  
 
@@ -77,13 +83,37 @@ Feel free to contribute either with a PR or by opening an issue.
 ### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
 
+    `TL;DR: This paper shows that CRL should learn task-invariant dynamics rather than repeatedly training policies. It introduces an Online Agent that selects actions via MPC with CEM instead of training policies, and plans using a Follow-The-Leader shallow world model that updates incrementally with no-regret guarantees against forgetting. By separating shared dynamics from task-specific rewards, the method avoids task interference and outperforms deep continual world models on Continual Bench.`
+
 - Sun Y, Fu H, Littman M, et al. **Knowledge Retention for Continual Model-Based Reinforcement Learning**[J]. arXiv preprint arXiv:2503.04256, 2025.[[Paper]](https://arxiv.org/abs/2503.04256)[[Code]](https://github.com/YixiangSun/drago)
+
+     `TL;DR: This paper introduces DRAGO, a model-based CRL framework that preserves dynamics knowledge across tasks without storing past data. It achieves this by generating synthetic experiences from previous tasks and using an intrinsic reward to guide exploration towards revisiting familiar states, thereby building a more comprehensive and robust world model across sequential tasks.`   
 
 - Tang H, Obando-Ceron J, Castro P S, et al. **Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn**[J]. arXiv preprint arXiv:2506.00592, 2025.[[Paper]](https://arxiv.org/abs/2506.00592)[[Code]](https://github.com/bluecontra/C-CHAIN)
 
     `TL;DR: This paper links plasticity loss in CRL to increased "churn" (network output variability for out-of-batch data), showing it's exacerbated by Neural Tangent Kernel (NTK) rank decrease. The authors propose C-CHAIN, a method to reduce churn, which prevents NTK rank collapse and adaptively adjusts gradients. C-CHAIN significantly improves learning performance across diverse benchmarks.`
 
 - Mesbahi G, Panahi P M, Mastikhina O, et al. **Position: Lifetime tuning is incompatible with continual reinforcement learning**[C]//Forty-second International Conference on Machine Learning Position Paper Track.[[Paper]](https://openreview.net/forum?id=JMoWFkwnvv)
+
+    `TL;DR: The paper shows that tuning hyperparameters over the full training lifetime hides loss of plasticity and overestimates standard RL methods in nonstationary environments. Limiting tuning to a small fraction of the lifetime exposes their degradation, while continual learning methods remain adaptive. The authors advocate k percent tuning as a more faithful evaluation protocol.`
+
+### NeurIPS 2025
+- Lee D, Lee D, Kwack T Y, et al. **Policy Compatible Skill Incremental Learning via Lazy Learning Interface**(Spotlight)[J]. arXiv preprint arXiv:2509.20612, 2025.[[Paper]](https://arxiv.org/abs/2509.20612)[[Code]](https://github.com/L2dulgi/SIL-C)
+
+    `TL;DR: This paper presents SIL-C, a skill incremental learning framework that resolves evolving skill–policy incompatibility. It uses a bilateral lazy-learning interface that aligns policy subtasks with updated skills via trajectory similarity, enabling backward and forward compatibility without retraining and supporting efficient continual skill expansion.`
+
+- Hu J, Lian Z H, Wen Z, et al. **Continual Knowledge Adaptation for Reinforcement Learning**[C]//The Thirty-ninth Annual Conference on Neural Information Processing Systems.[[Paper]](https://openreview.net/forum?id=QRlVickNdN)[[Code]](https://github.com/Fhujinwu/CKA-RL)
+
+    `TL;DR: CKA-RL addresses catastrophic forgetting and scalability in CRL. It uses a dynamic pool of task-specific knowledge vectors to adapt historical knowledge for new tasks, and an adaptive merging mechanism to consolidate similar vectors. This approach significantly improves performance and knowledge transfer.`
+
+- Hu J, Huang S, Shen L, et al. **Tackling Continual Offline RL through Selective Weights Activation on Aligned Spaces**[C]//The Thirty-ninth Annual Conference on Neural Information Processing Systems. 2025.[[Paper]](https://openreview.net/forum?id=KfRfTAJpjh)
+
+    `TL;DR: This paper introduces VQ-CD, a continual offline RL method that aligns heterogeneous task spaces with vector quantization and mitigates forgetting through selective weight activation using task masks. By unifying representations and isolating task-specific parameters, it enables robust continual learning across diverse task sequences.`
+
+- Yu M M, Zhu F, Yang Y, et al. **C-NAV: Towards Self-Evolving Continual Object Navigation in Open World**[C]//The Thirty-ninth Annual Conference on Neural Information Processing Systems. [[Paper]](https://openreview.net/forum?id=SbfdxWibDn)[[Code]](https://bigtree765.github.io/C-Nav-project/)
+
+    `TL;DR: This paper presents C-Nav, a continual object navigation framework that prevents forgetting through dual-path feature distillation and feature replay, while using adaptive keyframe selection to reduce memory. It maintains stable representations and policies across tasks, enabling effective continual skill acquisition with lower storage cost.`
+
 
 
 ### ICLR 2025
@@ -164,6 +194,11 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper introduces a CRL approach for quadruped robot to overcome catastrophic forgetting and plasticity loss. It uses a modified Piggyback dynamic network that protects learned parameters and enhances exploration via re-initialization and entropy regularization, outperforming baselines on complex locomotion tasks.`  
 ## 🌎 Benchmarks
+### ICML 2025
+- Liu Z, Fu G, Du C, et al. **Continual Bench: Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)[[Code]](https://github.com/sail-sg/ContinualBench)
+
+    `TL;DR: Continual Bench is a CRL benchmark with six Meta-World manipulation tasks that share a unified state/action space and identical environment dynamics. Unlike prior benchmarks with unrealistic physics and conflicting task dynamics, it spatially arranges tasks rather than concatenating them temporally, ensuring consistent world dynamics. Task switches are induced solely by reward changes, enabling controlled evaluation of both adaptation and forgetting.`
+
 ### NeurIPS 2023
 - Liu B, Zhu Y, Gao C, et al. **Libero: Benchmarking knowledge transfer for lifelong robot learning**[J]. Advances in Neural Information Processing Systems, 2023, 36: 44776-44791.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/8c3c666820ea055a77726d66fc7d447f-Abstract-Datasets_and_Benchmarks.html)[[Code]](https://libero-project.github.io/)
 
