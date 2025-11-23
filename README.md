@@ -121,6 +121,12 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper demonstrates that negative transfer is prevalent in CRL. Reset & Distill (R&D) tackles this with a dual-learner approach: an online network resets its parameters for each new task to eliminate negative transfer and efficiently learn, while an offline network sequentially distills knowledge from the online actor and previous expert policies to prevent catastrophic forgetting.`  
 
+- Choi W, Park J, Ahn S, et al. **NeSyC: A Neuro-symbolic Continual Learner For Complex Embodied Tasks In Open Domains**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=VoayJihXra)
+
+- Liu T, Li J, Zheng Y, et al. **Skill Expansion and Composition in Parameter Space**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=GLWf2fq0bX)
+
+- Choi J, Seo S W. **Dynamic Contrastive Skill Learning with State-Transition Based Skill Clustering and Dynamic Length Adjustment**[C]//The Thirteenth International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=8egnwady4b)
+
 ### ICRA 2025
 - Roy K, Dissanayakc A, Tidd B, et al. **M2distill: Multi-modal distillation for lifelong imitation learning**[C]//2025 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2025: 1429-1435.[[Paper]](https://ieeexplore.ieee.org/abstract/document/11128857/)
   
@@ -134,8 +140,15 @@ Feel free to contribute either with a PR or by opening an issue.
 ### NeurIPS 2024
 - Chung W, Cherif L, Meger D, et al. **Parseval regularization for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 127937-127967.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/file/e6df4efa20adf8ef9acb80e94072a429-Paper-Conference.pdf)[[Code]](https://github.com/wechu/parseval_reg)
 
-    `TL;DR: This paper introduces Parseval regularization to mitigate plasticity loss in CRL. It adds a term to the objective function to maintain the orthogonality of weight matrices, applied to both the policy and value networks across all layers except the last, thereby preserving optimization properties and improving the agent’s ability to learn new tasks. `
+    `TL;DR: This paper introduces Parseval regularization to mitigate plasticity loss in CRL. It adds a term to the objective function to maintain the orthogonality of weight matrices, applied to both the policy and value networks across all layers except the last, thereby preserving optimization properties and improving the agent’s ability to learn new tasks.`
 
+- Muppidi A, Zhang Z, Yang H. **Fast trac: A parameter-free optimizer for lifelong reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 51169-51195.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5b76d77e7095c6480ed827b85f0c2878-Abstract-Conference.html)[[Code]](https://computationalrobotics.seas.harvard.edu/TRAC/)
+
+    `TL;DR: TRAC is a parameter-free optimizer for LRL, derived from Online Convex Optimization. It adaptively regularizes learning to prevent plasticity loss and enable rapid adaptation to new, diverse tasks without any hyperparameter tuning, outperforming baselines across Procgen, Atari, and control tasks.`
+
+- Lee D, Yoo M, Kim W K, et al.**Incremental learning of retrievable skills for efficient continual task adaptation**[J]. Advances in Neural Information Processing Systems, 2024, 37: 17286-17312.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1f0832859514e53a0e4f229fc9b3a4a2-Abstract-Conference.html)[[Code]](https://github.com/L2dulgi/IsCiL)
+
+    `TL;DR: IsCiL introduces an adapter-based Continual Imitation Learning (CiL) framework that enhances knowledge sharing. It achieves this by incrementally learning and retrieving shareable skills through prototype-based memory, enabling sample-efficient and robust task adaptation in non-stationary environments.`
 ### ICML 2023
 - Sokar G, Agarwal R, Castro P S, et al. **The dormant neuron phenomenon in deep reinforcement learning**[C]//International Conference on Machine Learning. PMLR, 2023: 32145-32168.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/redo)
 
