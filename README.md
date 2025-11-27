@@ -32,6 +32,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [NeurIPS 2023](#neurips-2023)
     - [CoLLAs 2022](#collas-2022)
     - [NeurIPS 2021](#neurips-2021)
+    - [ICML 2020](#icml-2020)
     - [CoRL 2019](#corl-2019)
   - [🔗 Related Repositories](#-related-repositories)
 
@@ -164,6 +165,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper investigates plasticity loss in CRL by tracking the evolution of weights, gradients, and activations. The authors observe activation collapse, where only a few neurons remain active in non-stationary environments, leading to vanishing gradients and stagnant network weights. Replacing ReLU with CReLU activations mitigates loss of plasticity and sustains learning over time.`
 
+- Kessler S, Ostaszewski M, Bortkiewicz M P, et al. **The effectiveness of world models for continual reinforcement learning**[C]//Conference on Lifelong Learning Agents. PMLR, 2023: 184-204.[[Paper]](https://proceedings.mlr.press/v232/kessler23a.html)[[Code]](https://github.com/skezle/continual-dreamer)
+    
+    `TL;DR: `  
 
 ### NeurIPS 2022
 - Wolczyk M, Zając M, Pascanu R, et al. **Disentangling transfer in continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2022, 35: 6304-6317.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2938ad0434a6506b125d8adaff084a4a-Abstract-Conference.html)
@@ -217,13 +221,18 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper presents LIBERO, a new benchmark for Lifelong Learning in Decision-Making (LLDM) in robot manipulation, comprising 130 multi-modal tasks across four suites. It investigates five major research topics in lifelong learning, focusing on declarative and procedural knowledge transfer across visual, state, and language modalities.`  
 
+- Tomilin T, Fang M, Zhang Y, et al. **COOM: A game benchmark for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2023, 36: 67794-67832.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2023/hash/d61d9f4fe4357296cb658795fd7999f0-Abstract-Datasets_and_Benchmarks.html)[[Code]](https://github.com/hyintell/COOM)
+
 ### CoLLAs 2022
-- Powers S, Xing E, Kolve E, et al. **Cora: Benchmarks, baselines, and metrics as a platform for continual reinforcement learning agents**[C]//Conference on Lifelong Learning Agents. PMLR, 2022: 705-743.[[Paper]](https://proceedings.mlr.press/v199/powers22b.html)[[Code]](https://github.com/AGI-Labs/continual_rl)
+- Powers S, Xing E, Kolve E, et al. **CORA: Benchmarks, baselines, and metrics as a platform for continual reinforcement learning agents**[C]//Conference on Lifelong Learning Agents. PMLR, 2022: 705-743.[[Paper]](https://proceedings.mlr.press/v199/powers22b.html)[[Code]](https://github.com/AGI-Labs/continual_rl)
 
 ### NeurIPS 2021
 - Wołczyk M, Zając M, Pascanu R, et al. **Continual world: A robotic benchmark for continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2021, 34: 28496-28510.[[Paper]](https://proceedings.neurips.cc/paper/2021/hash/ef8446f35513a8d6aa2308357a268a7e-Abstract.html)[[Code]](https://github.com/awarelab/continual_world)
 
     `TL;DR: This paper proposes Continual World, a new benchmark for CRL built on Meta-World. It empirically evaluates seven CL methods on Continual World and finds that existing CL methods effectively mitigate forgetting but largely fail to achieve positive forward transfer, reflecting an inefficient utilization of previously learned knowledge.`
+
+### ICML 2020
+- Cobbe K, Hesse C, Hilton J, et al. **Procgen:Leveraging procedural generation to benchmark reinforcement learning**[C]//International conference on machine learning. PMLR, 2020: 2048-2056.[[Paper]](https://proceedings.mlr.press/v119/cobbe20a.html)[[Code]](https://github.com/openai/procgen)
 
 ### CoRL 2019
 - Yu T, Quillen D, He Z, et al. **Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning**[C]//Conference on robot learning. PMLR, 2020: 1094-1100. [[Paper]](http://proceedings.mlr.press/v100/yu20a)[[Code]](https://github.com/Farama-Foundation/Metaworld)
