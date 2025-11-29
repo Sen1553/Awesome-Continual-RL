@@ -167,7 +167,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Kessler S, Ostaszewski M, Bortkiewicz M P, et al. **The effectiveness of world models for continual reinforcement learning**[C]//Conference on Lifelong Learning Agents. PMLR, 2023: 184-204.[[Paper]](https://proceedings.mlr.press/v232/kessler23a.html)[[Code]](https://github.com/skezle/continual-dreamer)
     
-    `TL;DR: `  
+    `TL;DR: This paper shows the effectiveness of world models in CRL. Continual-Dreamer utilizes reservoir sampling for experience replay, employs world model prediction uncertainty as an intrinsic reward for task-agnostic exploration, mitigating forgetting and enabling transfer, outperforming existing methods.`  
 
 ### NeurIPS 2022
 - Wolczyk M, Zając M, Pascanu R, et al. **Disentangling transfer in continual reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2022, 35: 6304-6317.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/2938ad0434a6506b125d8adaff084a4a-Abstract-Conference.html)
