@@ -60,6 +60,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
 
+- Klein T, Miklautz L, Sidak K, et al. **Plasticity loss in deep reinforcement learning: A survey**[J]. arXiv preprint arXiv:2411.04832, 2024.[[Paper]](https://arxiv.org/abs/2411.04832)[[Code]](https://github.com/Probabilistic-and-Interactive-ML/awesome-plasticity-loss)
+
 ## 📖 Research Papers
 
 ### arXiv
@@ -249,6 +251,7 @@ Feel free to contribute either with a PR or by opening an issue.
 | **Awesome-Robotics-Manipulation** | [Link](https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation/blob/main/contents/bottlenecks.md?tab=readme-ov-file#lifelongcontinualincremental-learning) |
 | **Awesome-Continual-Learning** | [Link](https://github.com/lywang3081/Awesome-Continual-Learning) |
 | **continual-learning-papers** | [Link](https://github.com/ContinualAI/continual-learning-papers?tab=readme-ov-file#continual-reinforcement-learning) |
+| **awesome-plasticity-loss** | [Link](https://github.com/Probabilistic-and-Interactive-ML/awesome-plasticity-loss) |
 
 
 
