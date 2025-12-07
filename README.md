@@ -86,7 +86,7 @@ Feel free to contribute either with a PR or by opening an issue.
 ### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://icml.cc/virtual/2025/poster/44151)
 
-    `TL;DR: This paper shows that CRL should learn a unified dynamics rather than training policies. It introduces an Online Agent that selects actions via MPC with CEM instead of training policies, and plans using a Follow-The-Leader shallow world model that updates incrementally with no-regret guarantees against forgetting. Evaluation is performed on their custom-designed Continual Bench.`
+    `TL;DR: This paper shows that CRL should learn a unified dynamics rather than training policies. It introduces an Online Agent (OA) that selects actions via MPC with CEM instead of training policies, and plans using a Follow-The-Leader shallow world model that updates incrementally with no-regret guarantees against forgetting. Evaluation is performed on their custom-designed Continual Bench.`
 
 - Sun Y, Fu H, Littman M, et al. **Knowledge Retention for Continual Model-Based Reinforcement Learning**[J]. arXiv preprint arXiv:2503.04256, 2025.[[Paper]](https://arxiv.org/abs/2503.04256)[[Code]](https://github.com/YixiangSun/drago)
 
