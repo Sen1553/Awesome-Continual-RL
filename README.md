@@ -56,7 +56,7 @@ Feel free to contribute either with a PR or by opening an issue.
     `TL;DR: This paper provides an up-to-date and comprehensive survey of CRL. It introduces a new taxonomy that categorizes methods into four types: policy-focused, experience-focused, dynamics-focused, and reward-focused, from the perspective of knowledge storage and transfer.`  
 
 
-- Khetarpal K, Riemer M, Rish I, et al. **Towards continual reinforcement learning: A review and perspectives**[J]. Journal of Artificial Intelligence Research, 2022, 75: 1401-1476.[[Paper]](https://www.jair.org/index.php/jair/article/view/13673)
+- Khetarpal K, Riemer M, Rish I, et al. **Towards continual reinforcement learning: A review and perspectives**[J]. Journal of Artificial Intelligence Research, 2022, 75: 1401-1476.[[Paper]](https://arxiv.org/abs/2012.13490)
 
     `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
 
@@ -84,9 +84,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ### ICML 2025
-- Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)
+- Liu Z, Fu G, Du C, et al. **Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://icml.cc/virtual/2025/poster/44151)
 
-    `TL;DR: This paper shows that CRL should learn task-invariant dynamics rather than repeatedly training policies. It introduces an Online Agent that selects actions via MPC with CEM instead of training policies, and plans using a Follow-The-Leader shallow world model that updates incrementally with no-regret guarantees against forgetting. By separating shared dynamics from task-specific rewards, the method avoids task interference and outperforms deep continual world models on Continual Bench.`
+    `TL;DR: This paper shows that CRL should learn a unified dynamics rather than training policies. It introduces an Online Agent that selects actions via MPC with CEM instead of training policies, and plans using a Follow-The-Leader shallow world model that updates incrementally with no-regret guarantees against forgetting. Evaluation is performed on their custom-designed Continual Bench.`
 
 - Sun Y, Fu H, Littman M, et al. **Knowledge Retention for Continual Model-Based Reinforcement Learning**[J]. arXiv preprint arXiv:2503.04256, 2025.[[Paper]](https://arxiv.org/abs/2503.04256)[[Code]](https://github.com/YixiangSun/drago)
 
