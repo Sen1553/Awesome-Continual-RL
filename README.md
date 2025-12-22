@@ -22,6 +22,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
     - [NeurIPS 2022](#neurips-2022)
     - [ICLR 2022](#iclr-2022)
+    - [ICLR 2021](#iclr-2021)
     - [NeurIPS 2019](#neurips-2019)
     - [ICML 2018](#icml-2018)
   - [🤖 Robot](#-robot)
@@ -58,7 +59,6 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Khetarpal K, Riemer M, Rish I, et al. **Towards continual reinforcement learning: A review and perspectives**[J]. Journal of Artificial Intelligence Research, 2022, 75: 1401-1476.[[Paper]](https://arxiv.org/abs/2012.13490)
 
-    `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
 
 - Klein T, Miklautz L, Sidak K, et al. **Plasticity loss in deep reinforcement learning: A survey**[J]. arXiv preprint arXiv:2411.04832, 2024.[[Paper]](https://arxiv.org/abs/2411.04832)[[Code]](https://github.com/Probabilistic-and-Interactive-ML/awesome-plasticity-loss)
 
@@ -72,6 +72,8 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://openreview.net/forum?id=zPj3SUiz3y)
 
+    `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
+    
 #### 2017
 - Fernando C, Banarse D, Blundell C, et al. **Pathnet: Evolution channels gradient descent in super neural networks**[J]. arXiv preprint arXiv:1701.08734, 2017.[[Paper]](https://arxiv.org/pdf/1701.08734)
 
@@ -90,7 +92,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Sun Y, Fu H, Littman M, et al. **Knowledge Retention for Continual Model-Based Reinforcement Learning**[J]. arXiv preprint arXiv:2503.04256, 2025.[[Paper]](https://arxiv.org/abs/2503.04256)[[Code]](https://github.com/YixiangSun/drago)
 
-     `TL;DR: This paper introduces DRAGO, a model-based CRL framework that preserves dynamics knowledge across tasks without storing past data. It achieves this by generating synthetic experiences from previous tasks and using an intrinsic reward to guide exploration towards revisiting familiar states, thereby building a more comprehensive and robust world model across sequential tasks.`   
+     `TL;DR: This paper introduces DRAGO, a model-based CRL framework built upon the TDMPC method. It aims to preserve dynamics knowledge across sequential tasks without storing past data. DRAGO achieves this by generating synthetic experiences from previous tasks and employing an intrinsic reward to guide exploration towards revisiting familiar states, thereby mitigating catastrophic forgetting and promoting effective knowledge transfer.`   
 
 - Tang H, Obando-Ceron J, Castro P S, et al. **Mitigating Plasticity Loss in Continual Reinforcement Learning by Reducing Churn**[J]. arXiv preprint arXiv:2506.00592, 2025.[[Paper]](https://arxiv.org/abs/2506.00592)[[Code]](https://github.com/bluecontra/C-CHAIN)
 
@@ -184,6 +186,9 @@ Feel free to contribute either with a PR or by opening an issue.
 - Lyle C, Rowland M, Dabney W. **Understanding and preventing capacity loss in reinforcement learning**[J]. arXiv preprint arXiv:2204.09560, 2022.[[Paper]](https://openreview.net/forum?id=ZkC8wKoLbQ7)[[Code]](https://github.com/timoklein/infer)
 
     `TL;DR: This paper investigates capacity loss in RL, where networks gradually lose the ability to fit new targets. Using feature rank to quantify representational capacity, the authors propose Initial Feature Regularization (InFeR), which constrains a subspace of features to stay close to initial values, preserving feature rank and mitigating capacity loss across diverse RL settings.`  
+
+### ICLR 2021
+- Kumar A, Agarwal R, Ghosh D, et al. **Implicit Under-Parameterization Inhibits Data-Efficient Deep Reinforcement Learning**[C]//International Conference on Learning Representations.[[Paper]](https://openreview.net/forum?id=O9bnihsFfXU)[[Code]](https://github.com/timoklein/implicit_underparameterization)
 
 ### NeurIPS 2019
 
