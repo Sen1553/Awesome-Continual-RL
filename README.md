@@ -73,6 +73,8 @@ Feel free to contribute either with a PR or by opening an issue.
 - Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://openreview.net/forum?id=zPj3SUiz3y)
 
     `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
+
+- Xue Yang, Michael Schukat, Junlin Lu, et al. **Demonstration-Guided Continual Reinforcement Learning in Dynamic Environments**[J]. arXiv preprint arXiv:2512.18670, 2025.[[Paper]](https://arxiv.org/abs/2512.18670)
     
 #### 2017
 - Fernando C, Banarse D, Blundell C, et al. **Pathnet: Evolution channels gradient descent in super neural networks**[J]. arXiv preprint arXiv:1701.08734, 2017.[[Paper]](https://arxiv.org/pdf/1701.08734)
@@ -82,6 +84,7 @@ Feel free to contribute either with a PR or by opening an issue.
 - Rusu A A, Rabinowitz N C, Desjardins G, et al. **Progressive neural networks**[J]. arXiv preprint arXiv:1606.04671, 2016.[[Paper]](https://arxiv.org/abs/1606.04671)
   
     `TL;DR: This paper introduces Progressive Neural Networks, which add a new neural network (a column) for each task and freeze earlier ones to avoid catastrophic forgetting. Lateral connections enable effective feature reuse, and experiments on Atari, Pong variants, and 3D mazes show consistent positive transfer beyond standard finetuning in deep RL.`  
+
 
 
 
