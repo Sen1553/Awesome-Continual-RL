@@ -103,7 +103,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Mesbahi G, Panahi P M, Mastikhina O, et al. **Position: Lifetime tuning is incompatible with continual reinforcement learning**[C]//Forty-second International Conference on Machine Learning Position Paper Track.[[Paper]](https://openreview.net/forum?id=JMoWFkwnvv)
 
-    `TL;DR: The paper shows that tuning hyperparameters over the full training lifetime hides loss of plasticity and overestimates standard RL methods in nonstationary environments. Limiting tuning to a small fraction of the lifetime exposes their degradation, while continual learning methods remain adaptive. The authors advocate k percent tuning as a more faithful evaluation protocol.`
+    `TL;DR: Standard lifetime tuning optimizes hyperparameters by repeatedly evaluating agents over a fixed, known interaction lifetime, which leads to overfitting to this specific lifespan and misleads continual RL evaluation. This paper proposes k percent tuning, which tunes on only a fraction of the agent’s lifetime to more accurately reveal the advantages of true continual learning algorithms.`
 
 ### NeurIPS 2025
 - Lee D, Lee D, Kwack T Y, et al. **Policy Compatible Skill Incremental Learning via Lazy Learning Interface**(Spotlight)[J]. arXiv preprint arXiv:2509.20612, 2025.[[Paper]](https://arxiv.org/abs/2509.20612)[[Code]](https://github.com/L2dulgi/SIL-C)
