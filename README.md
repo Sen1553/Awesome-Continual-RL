@@ -11,6 +11,7 @@ This repository collects important papers in the field of **Continual Reinforcem
       - [2025](#2025)
       - [2017](#2017)
       - [2016](#2016)
+    - [Reinforcement Learning Journal (RLC) 2025](#reinforcement-learning-journal-rlc-2025)
     - [ICML 2025](#icml-2025)
     - [NeurIPS 2025](#neurips-2025)
     - [ICLR 2025](#iclr-2025)
@@ -66,15 +67,17 @@ Feel free to contribute either with a PR or by opening an issue.
 
 ### arXiv
 #### 2025
-- Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
+- Xue Yang, Michael Schukat, Junlin Lu, et al. **Demonstration-Guided Continual Reinforcement Learning in Dynamic Environments**[J]. arXiv preprint arXiv:2512.18670, 2025.[[Paper]](https://arxiv.org/abs/2512.18670)[[Code]](https://github.com/XueYang0130/DGCRL.git)
 
-    `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.`  
+    `TL;DR: Unlike traditional CRL where past knowledge indirectly influences optimization, DGCRL uses a self-evolving external demonstration repository to directly guide agent behavior via curriculum learning. This approach, together with an effective actor–critic resetting mechanism, significantly improves performance and knowledge transfer while mitigating forgetting in dynamic environments.`
 
 - Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://openreview.net/forum?id=zPj3SUiz3y)
 
     `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
 
-- Xue Yang, Michael Schukat, Junlin Lu, et al. **Demonstration-Guided Continual Reinforcement Learning in Dynamic Environments**[J]. arXiv preprint arXiv:2512.18670, 2025.[[Paper]](https://arxiv.org/abs/2512.18670)
+
+ 
+
     
 #### 2017
 - Fernando C, Banarse D, Blundell C, et al. **Pathnet: Evolution channels gradient descent in super neural networks**[J]. arXiv preprint arXiv:1701.08734, 2017.[[Paper]](https://arxiv.org/pdf/1701.08734)
@@ -85,7 +88,10 @@ Feel free to contribute either with a PR or by opening an issue.
   
     `TL;DR: This paper introduces Progressive Neural Networks, which add a new neural network (a column) for each task and freeze earlier ones to avoid catastrophic forgetting. Lateral connections enable effective feature reuse, and experiments on Atari, Pong variants, and 3D mazes show consistent positive transfer beyond standard finetuning in deep RL.`  
 
+### Reinforcement Learning Journal (RLC) 2025
+- Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
 
+    `TL;DR: This paper argues that key assumptions of standard RL, such as MDP formulations, optimal policy focus, and episodic evaluation, are misaligned with the goals of CRL. It proposes a new paradigm tailored to CRL based on the history process, providing a more appropriate foundation for lifelong learning.` 
 
 
 ### ICML 2025
