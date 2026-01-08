@@ -158,7 +158,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 - Muppidi A, Zhang Z, Yang H. **Fast trac: A parameter-free optimizer for lifelong reinforcement learning**[J]. Advances in Neural Information Processing Systems, 2024, 37: 51169-51195.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/5b76d77e7095c6480ed827b85f0c2878-Abstract-Conference.html)[[Code]](https://computationalrobotics.seas.harvard.edu/TRAC/)
 
-    `TL;DR: TRAC is a parameter-free optimizer for LRL, derived from Online Convex Optimization. It adaptively regularizes learning to prevent plasticity loss and enable rapid adaptation to new, diverse tasks without any hyperparameter tuning, outperforming baselines across Procgen, Atari, and control tasks.`
+    `TL;DR: TRAC is a parameter-free optimizer for LRL, derived from Online Convex Optimization. It adaptively regularizes learning by keeping policy weights near a reference point, which can be seen as a parameter-free L2 regularization. This prevents plasticity loss and enables rapid adaptation to new, diverse tasks without any hyperparameter tuning, outperforming baselines across Procgen, Atari, and control tasks.`
 
 - Lee D, Yoo M, Kim W K, et al.**Incremental learning of retrievable skills for efficient continual task adaptation**[J]. Advances in Neural Information Processing Systems, 2024, 37: 17286-17312.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1f0832859514e53a0e4f229fc9b3a4a2-Abstract-Conference.html)[[Code]](https://github.com/L2dulgi/IsCiL)
 
