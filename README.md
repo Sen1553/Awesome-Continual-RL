@@ -11,6 +11,7 @@ This repository collects important papers in the field of **Continual Reinforcem
       - [2025](#2025)
       - [2017](#2017)
       - [2016](#2016)
+    - [ICLR 2026](#iclr-2026)
     - [Reinforcement Learning Journal (RLC) 2025](#reinforcement-learning-journal-rlc-2025)
     - [ICML 2025](#icml-2025)
     - [NeurIPS 2025](#neurips-2025)
@@ -71,10 +72,6 @@ Feel free to contribute either with a PR or by opening an issue.
 
     `TL;DR: Unlike traditional CRL where past knowledge indirectly influences optimization, DGCRL uses a self-evolving external demonstration repository to directly guide agent behavior via curriculum learning. This approach, together with an effective actor–critic resetting mechanism, significantly improves performance and knowledge transfer while mitigating forgetting in dynamic environments.`
 
-- Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://openreview.net/forum?id=zPj3SUiz3y)
-
-    `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
-
 
  
 
@@ -87,6 +84,14 @@ Feel free to contribute either with a PR or by opening an issue.
 - Rusu A A, Rabinowitz N C, Desjardins G, et al. **Progressive neural networks**[J]. arXiv preprint arXiv:1606.04671, 2016.[[Paper]](https://arxiv.org/abs/1606.04671)
   
     `TL;DR: This paper introduces Progressive Neural Networks, which add a new neural network (a column) for each task and freeze earlier ones to avoid catastrophic forgetting. Lateral connections enable effective feature reuse, and experiments on Atari, Pong variants, and 3D mazes show consistent positive transfer beyond standard finetuning in deep RL.`  
+
+### ICLR 2026
+- Sun K, Zhang H, Jin J, et al. **Principled Fast and Meta Knowledge Learners for Continual Reinforcement Learning**[J]. 2025.[[Paper]](https://arxiv.org/abs/2603.00903)[[Code]](https://github.com/datake/FAME)
+
+    `TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.`
+
+
+
 
 ### Reinforcement Learning Journal (RLC) 2025
 - Elelimy E, Szepesvari D, White M, et al. **Rethinking the foundations for continual reinforcement learning**[J]. arXiv preprint arXiv:2504.08161, 2025.[[Paper]](https://arxiv.org/abs/2504.08161)
