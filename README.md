@@ -19,6 +19,7 @@ This repository collects important papers in the field of **Continual Reinforcem
     - [ICRA 2025](#icra-2025)
     - [Nature 2024](#nature-2024)
     - [NeurIPS 2024](#neurips-2024)
+    - [ICML 2024](#icml-2024)
     - [ICML 2023](#icml-2023)
     - [ICLR 2023](#iclr-2023)
     - [Conference on Lifelong Learning Agents (CoLLAs) 2023](#conference-on-lifelong-learning-agents-collas-2023)
@@ -168,6 +169,12 @@ Feel free to contribute either with a PR or by opening an issue.
 - Lee D, Yoo M, Kim W K, et al.**Incremental learning of retrievable skills for efficient continual task adaptation**[J]. Advances in Neural Information Processing Systems, 2024, 37: 17286-17312.[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1f0832859514e53a0e4f229fc9b3a4a2-Abstract-Conference.html)[[Code]](https://github.com/L2dulgi/IsCiL)
 
     `TL;DR: IsCiL introduces an adapter-based Continual Imitation Learning (CiL) framework that enhances knowledge sharing. It achieves this by incrementally learning and retrieving shareable skills through prototype-based memory, enabling sample-efficient and robust task adaptation in non-stationary environments.`
+
+### ICML 2024
+- Malagón M, Ceberio J, Lozano J A. **Self-Composing Policies for Scalable Continual Reinforcement Learning**[J].[[Paper]](https://arxiv.org/pdf/2506.14811)[[Code]](https://github.com/mikelma/componet)
+
+    `TL;DR: CompoNet is a modular architecture for CRL that prevents forgetting by freezing past policies and adding new modules. Utilize attention to dynamically combine historical outputs with an internal policy, enabling efficient transfer. Unlike Progressive Networks, CompoNet scales linearly, ensuring superior scalability and speed while maintaining high plasticity.`
+
 ### ICML 2023
 - Sokar G, Agarwal R, Castro P S, et al. **The dormant neuron phenomenon in deep reinforcement learning**[C]//International Conference on Machine Learning. PMLR, 2023: 32145-32168.[[Paper]](https://proceedings.mlr.press/v202/sokar23a/sokar23a.pdf)[[Code]](https://github.com/timoklein/redo)
 
