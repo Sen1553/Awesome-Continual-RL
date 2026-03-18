@@ -207,6 +207,10 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ### arXiv
+- Li Y, He Q, Yuan M, et al. **Continual Policy Distillation from Distributed Reinforcement Learning Teachers**[J]. arXiv preprint arXiv:2601.22475, 2026.[[Paper]](https://arxiv.org/abs/2601.22475)[[Code]](https://github.com/biolbe1230/Continual-Policy-Distillation-from-Distributed-Reinforcement-Learning-Teachers)
+
+    >TL;DR: This paper frames CRL as a continual Multi-Task Distillation problem by distilling distributed single-task experts into an incrementally expanding MoE Transformer. By synergizing Contrastive Task Embeddings, DPP-based Replay, and Parameter Masking, the framework transforms unstable sequential learning into a scalable supervised process, recovering over 85% of expert performance with minimal forgetting.  
+
 - Xue Yang, Michael Schukat, Junlin Lu, et al. **Demonstration-Guided Continual Reinforcement Learning in Dynamic Environments**[J]. arXiv preprint arXiv:2512.18670, 2025.[[Paper]](https://arxiv.org/abs/2512.18670)[[Code]](https://github.com/XueYang0130/DGCRL.git)
 
     >TL;DR: Unlike traditional CRL where past knowledge indirectly influences optimization, DGCRL uses a self-evolving external demonstration repository to directly guide agent behavior via curriculum learning. This approach, together with an effective actor–critic resetting mechanism, significantly improves performance and knowledge transfer while mitigating forgetting in dynamic environments.
