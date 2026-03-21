@@ -207,6 +207,10 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ### arXiv
+- Hu J, Shim J, Tang C, et al. **Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning[**J]. arXiv preprint arXiv:2603.11653, 2026.[[Paper]](https://arxiv.org/abs/2603.11653)[[Code]](https://github.com/UT-Austin-RobIn/continual-vla-rl)
+  
+    >TL;DR: The authors introduce CRL to the VLA domain, employing GRPO and LoRA to attain both stability against forgetting and high adaptation plasticity, while further augmenting the model's zero-shot transferability. Through systematic validation, they demonstrate that such robustness emerges from the synergy between large pre-trained backbones, parameter-efficient fine-tuning, and the stable dynamics of on-policy RL.
+
 - Li Y, He Q, Yuan M, et al. **Continual Policy Distillation from Distributed Reinforcement Learning Teachers**[J]. arXiv preprint arXiv:2601.22475, 2026.[[Paper]](https://arxiv.org/abs/2601.22475)[[Code]](https://github.com/biolbe1230/Continual-Policy-Distillation-from-Distributed-Reinforcement-Learning-Teachers)
 
     >TL;DR: This paper frames CRL as a continual Multi-Task Distillation problem by distilling distributed single-task experts into an incrementally expanding MoE Transformer. By synergizing Contrastive Task Embeddings, DPP-based Replay, and Parameter Masking, the framework transforms unstable sequential learning into a scalable supervised process, recovering over 85% of expert performance with minimal forgetting.  
