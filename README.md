@@ -207,7 +207,7 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ### arXiv
-- Hu J, Shim J, Tang C, et al. **Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning[**J]. arXiv preprint arXiv:2603.11653, 2026.[[Paper]](https://arxiv.org/abs/2603.11653)[[Code]](https://github.com/UT-Austin-RobIn/continual-vla-rl)
+- Hu J, Shim J, Tang C, et al. **Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning**[J]. arXiv preprint arXiv:2603.11653, 2026.[[Paper]](https://arxiv.org/abs/2603.11653)[[Code]](https://github.com/UT-Austin-RobIn/continual-vla-rl)
   
     >TL;DR: The authors introduce CRL to the VLA domain, employing GRPO and LoRA to attain both stability against forgetting and high adaptation plasticity, while further augmenting the model's zero-shot transferability. Through systematic validation, they demonstrate that such robustness emerges from the synergy between large pre-trained backbones, parameter-efficient fine-tuning, and the stable dynamics of on-policy RL.
 
