@@ -31,6 +31,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ## 📝 Survey
+- Mai Z, Jeon S, Huang Z, et al. **A Survey of Continual Learning for Robotics in the Foundation Model Era**[J].[[Paper]](https://www.techrxiv.org/doi/full/10.36227/techrxiv.176972367.76460794/v3)[[Code]](https://github.com/OSU-MLB/awesome-continual-learning-robotics-embodied-ai)
+
+    >TL;DR: This survey provides unified task formulations across Continual manipulation, navigation, and planning in the foundation model era. It summarizes widely used benchmarks and organizes existing methods into a technique taxonomy spanning architecture- replay-, and optimization-based methods. I believe that CRL represents a highly significant scenario within the field of robotics.
 
 - Zuffer A, Burke M, Harandi M. **Advancements and Challenges in Continual Reinforcement Learning: A Comprehensive Review**[J]. arXiv preprint arXiv:2506.21899, 2025.[[Paper]](https://arxiv.org/abs/2506.21899)
 
@@ -273,6 +276,6 @@ Feel free to contribute either with a PR or by opening an issue.
 | **Awesome-Continual-Learning** | [Link](https://github.com/lywang3081/Awesome-Continual-Learning) |
 | **continual-learning-papers** | [Link](https://github.com/ContinualAI/continual-learning-papers?tab=readme-ov-file#continual-reinforcement-learning) |
 | **awesome-plasticity-loss** | [Link](https://github.com/Probabilistic-and-Interactive-ML/awesome-plasticity-loss) |
-
+| **awesome-continual-learning-robotics-embodied-ai** | [Link](https://github.com/OSU-MLB/awesome-continual-learning-robotics-embodied-ai) |
 
 
