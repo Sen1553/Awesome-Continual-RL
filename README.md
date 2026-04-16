@@ -58,6 +58,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
     >TL;DR: This paper proposes FAME, a dual-learner framework where a fast learner adapts to new tasks and a meta learner incrementally consolidates past knowledge. Using principled measures of MDP difference and forgetting, FAME enables adaptive knowledge transfer and stable integration, improving forward transfer and reducing catastrophic forgetting in CRL.
 
+- Wu Z, Tang H, Ma Y, et al. **The Rank and Gradient Lost in Non-stationarity: Sample Weight Decay for Mitigating Plasticity Loss in Reinforcement Learning**[J]. arXiv preprint arXiv:2604.01913, 2026.[[Paper]](https://arxiv.org/abs/2604.01913)[[Code]](https://github.com/wzhhasadream/CleanRL-JAX)
+
+    >TL;DR: This paper identifies $\theta(1/k)$ gradient magnitude decay as a primary theoretical driver of plasticity loss in non-stationary RL. To address this, the authors propose Sample Weight Decay (SWD), a lightweight experience replay strategy that prioritizes recent data to restore gradient signals, effectively mitigating plasticity loss and improving learning stability across various RL benchmarks.
 
 ### 2025
 #### RLC 2025
@@ -236,6 +239,9 @@ Feel free to contribute either with a PR or by opening an issue.
 
 
 ## 🌎 Benchmarks
+#### arXiv
+- Yuan M, Wang Q, Ma G, et al. Plasticine: Accelerating research in plasticity-motivated deep reinforcement learning[J]. arXiv preprint arXiv:2504.17490, 2025.[[Paper]](https://arxiv.org/pdf/2504.17490)[[Code]](https://github.com/RLE-Foundation/Plasticine)
+
 #### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Bench: Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)[[Code]](https://github.com/sail-sg/ContinualBench)
 
