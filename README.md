@@ -242,6 +242,8 @@ Feel free to contribute either with a PR or by opening an issue.
 #### arXiv
 - Yuan M, Wang Q, Ma G, et al. Plasticine: Accelerating research in plasticity-motivated deep reinforcement learning[J]. arXiv preprint arXiv:2504.17490, 2025.[[Paper]](https://arxiv.org/pdf/2504.17490)[[Code]](https://github.com/RLE-Foundation/Plasticine)
 
+    >TL;DR: Plasticine is the first open-source benchmark for plasticity loss in deep RL, providing a unified framework with 13 mitigation methods, 6 evaluation metrics, and progressive non-stationary environments to accelerate research into lifelong learning agents. 
+
 #### ICML 2025
 - Liu Z, Fu G, Du C, et al. **Continual Bench: Continual Reinforcement Learning by Planning with Online World Models** (Spotlight)[J]. arXiv preprint arXiv:2507.09177, 2025.[[Paper]](https://arxiv.org/abs/2507.09177)[[Code]](https://github.com/sail-sg/ContinualBench)
 
